@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AI Invoice Generator",
-    "slug": "aibusinessassistant",
+    "name": "AI Business Assistant Original",
+    "slug": "ai-business-assistant-original",
     "version": "1.0.0",
     "sdkVersion": "52.0.0",
     "orientation": "portrait",
@@ -15,10 +15,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "ai.aibusinessassistant.app",
+      "bundleIdentifier": "ai.aibusinessassistant.original.app",
       "infoPlist": {
-        "NSMicrophoneUsageDescription": "AI Invoice Generator uses your microphone for voice input to create invoices hands-free.",
-        "NSSpeechRecognitionUsageDescription": "AI Invoice Generator uses speech recognition to convert your voice to invoice details.",
+        "NSMicrophoneUsageDescription": "AI Business Assistant Original uses your microphone for hands-free voice input.",
+        "NSSpeechRecognitionUsageDescription": "AI Business Assistant Original uses speech recognition to capture task and chat input.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
@@ -27,8 +27,12 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0A1628"
       },
-      "package": "ai.aibusinessassistant.app",
-      "permissions": ["RECORD_AUDIO", "RECEIVE_BOOT_COMPLETED", "VIBRATE"]
+      "package": "ai.aibusinessassistant.original.app",
+      "permissions": [
+        "RECORD_AUDIO",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -40,14 +44,14 @@
           "icon": "./assets/notification-icon.png",
           "color": "#0A1628"
         }
-      ],
-      "react-native-purchases"
+      ]
     ],
     "extra": {
-      "apiEndpoint": "https://superagent-02ccfade.base44.app/functions/aiInvoice",
+      "apiEndpoint": "https://superagent-02ccfade.base44.app/functions/aiChat",
       "eas": {
-        "projectId": "aibusinessassistant"
+        "projectId": "46213b86-0811-4faf-809b-07816cbd53db"
       }
-    }
+    },
+    "owner": "aibusinessassistant.ai"
   }
 }

@@ -1,4 +1,4 @@
-# AIBusinessAssistant
+# AI Business Assistant Original
 
 AI-powered business assistant app built with React Native / Expo.
 - GPT-4o powered AI Chat
